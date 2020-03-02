@@ -17,8 +17,8 @@ package test
 import (
 	"testing"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol"
 )
 
 // VerifyRaw verifies that the socket created is raw, and cannot be changed to cooked.

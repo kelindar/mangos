@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.nanomsg.org/mangos/v3"
+	"github.com/kelindar/mangos/v3"
 )
 
 // Currently these types are just aliases, in order to avoid

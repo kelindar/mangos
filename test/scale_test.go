@@ -30,10 +30,10 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/rep"
-	"go.nanomsg.org/mangos/v3/protocol/req"
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/rep"
+	"github.com/kelindar/mangos/v3/protocol/req"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
 )
 
 func scalabilityClient(errp *error, loops int, wg *sync.WaitGroup) {

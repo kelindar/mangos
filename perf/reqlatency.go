@@ -19,10 +19,10 @@ import (
 	"log"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/rep"
-	"go.nanomsg.org/mangos/v3/protocol/req"
-	"go.nanomsg.org/mangos/v3/transport/all"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/rep"
+	"github.com/kelindar/mangos/v3/protocol/req"
+	"github.com/kelindar/mangos/v3/transport/all"
 )
 
 // ReqRepLatencyServer is the server side for REQ/REP latency testing.

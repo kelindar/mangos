@@ -33,12 +33,12 @@ import (
 	"os"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/respondent"
-	"go.nanomsg.org/mangos/v3/protocol/surveyor"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/respondent"
+	"github.com/kelindar/mangos/v3/protocol/surveyor"
 
 	// register transports
-	_ "go.nanomsg.org/mangos/v3/transport/all"
+	_ "github.com/kelindar/mangos/v3/transport/all"
 )
 
 func die(format string, v ...interface{}) {

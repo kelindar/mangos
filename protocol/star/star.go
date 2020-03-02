@@ -22,8 +22,8 @@
 package star
 
 import (
-	"go.nanomsg.org/mangos/v3/protocol"
-	"go.nanomsg.org/mangos/v3/protocol/xstar"
+	"github.com/kelindar/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3/protocol/xstar"
 )
 
 // Protocol identity information.

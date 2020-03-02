@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"sync"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/req"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/req"
 
 	// register transports
-	_ "go.nanomsg.org/mangos/v3/transport/all"
+	_ "github.com/kelindar/mangos/v3/transport/all"
 )
 
 // synchronize our output messaging so we don't overlap

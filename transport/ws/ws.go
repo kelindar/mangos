@@ -27,8 +27,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/transport"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/transport"
 )
 
 // Some special options

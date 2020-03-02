@@ -18,15 +18,15 @@
 package all
 
 import (
-	"go.nanomsg.org/mangos/v3"
+	"github.com/kelindar/mangos/v3"
 
 	// import transports
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
-	_ "go.nanomsg.org/mangos/v3/transport/ipc"
-	_ "go.nanomsg.org/mangos/v3/transport/tcp"
-	_ "go.nanomsg.org/mangos/v3/transport/tlstcp"
-	_ "go.nanomsg.org/mangos/v3/transport/ws"
-	_ "go.nanomsg.org/mangos/v3/transport/wss"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
+	_ "github.com/kelindar/mangos/v3/transport/ipc"
+	_ "github.com/kelindar/mangos/v3/transport/tcp"
+	_ "github.com/kelindar/mangos/v3/transport/tlstcp"
+	_ "github.com/kelindar/mangos/v3/transport/ws"
+	_ "github.com/kelindar/mangos/v3/transport/wss"
 )
 
 // AddTransports adds all known transports to the given socket.

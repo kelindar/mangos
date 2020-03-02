@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
 )
 
 func TestIsSyscallError(t *testing.T) {

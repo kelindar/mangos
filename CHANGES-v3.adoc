@@ -3,7 +3,7 @@
 
 == Import path changed
 
-Use `go.nanomsg.org/mangos/v3` as the base URL for imports.
+Use `github.com/kelindar/mangos/v3` as the base URL for imports.
 
 == Go v1.12 Or Better Required
 

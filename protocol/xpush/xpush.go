@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"go.nanomsg.org/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3/protocol"
 )
 
 // Protocol identity information.

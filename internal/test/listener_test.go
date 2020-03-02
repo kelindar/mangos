@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
+	"github.com/kelindar/mangos/v3"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
 )
 
 func TestListenerBadScheme(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/errors"
-	"go.nanomsg.org/mangos/v3/transport"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/errors"
+	"github.com/kelindar/mangos/v3/transport"
 )
 
 type dialer struct {

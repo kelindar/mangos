@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
-	"go.nanomsg.org/mangos/v3/protocol/rep"
-	"go.nanomsg.org/mangos/v3/protocol/req"
-	"go.nanomsg.org/mangos/v3/protocol/xrep"
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
+	"github.com/kelindar/mangos/v3/protocol/rep"
+	"github.com/kelindar/mangos/v3/protocol/req"
+	"github.com/kelindar/mangos/v3/protocol/xrep"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
 )
 
 func TestXReqIdentity(t *testing.T) {

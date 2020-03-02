@@ -20,7 +20,7 @@ import (
 	"sync"
 	"testing"
 
-	. "go.nanomsg.org/mangos/v3/internal/test"
+	. "github.com/kelindar/mangos/v3/internal/test"
 )
 
 var wg sync.WaitGroup

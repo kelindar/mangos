@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
-	"go.nanomsg.org/mangos/v3/protocol/surveyor"
-	"go.nanomsg.org/mangos/v3/protocol/xrespondent"
-	"go.nanomsg.org/mangos/v3/protocol/xsurveyor"
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
+	"github.com/kelindar/mangos/v3/protocol/surveyor"
+	"github.com/kelindar/mangos/v3/protocol/xrespondent"
+	"github.com/kelindar/mangos/v3/protocol/xsurveyor"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
 )
 
 func TestRespondentIdentity(t *testing.T) {

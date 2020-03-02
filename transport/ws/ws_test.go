@@ -22,8 +22,8 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
 )
 
 var tran = Transport

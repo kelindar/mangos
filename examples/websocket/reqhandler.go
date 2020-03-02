@@ -19,11 +19,11 @@ import (
 	"net/http"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/rep"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/rep"
 
 	// register ws transport
-	"go.nanomsg.org/mangos/v3/transport/ws"
+	"github.com/kelindar/mangos/v3/transport/ws"
 )
 
 // reqHandler just spins on the socket and reads messages.  It replies

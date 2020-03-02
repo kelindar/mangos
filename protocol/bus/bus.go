@@ -17,8 +17,8 @@
 package bus
 
 import (
-	"go.nanomsg.org/mangos/v3/protocol"
-	"go.nanomsg.org/mangos/v3/protocol/xbus"
+	"github.com/kelindar/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3/protocol/xbus"
 )
 
 type socket struct {

@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
 )
 
 func TestXBusIdentity(t *testing.T) {

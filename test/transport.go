@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/rep"
-	"go.nanomsg.org/mangos/v3/protocol/req"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/rep"
+	"github.com/kelindar/mangos/v3/protocol/req"
 )
 
 // TranTest provides a common test structure for transports, so that they

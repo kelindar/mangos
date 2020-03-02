@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
+	"github.com/kelindar/mangos/v3"
 )
 
 // VerifyMaxRx is used to test that the transport enforces the maximum

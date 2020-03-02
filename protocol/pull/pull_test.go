@@ -17,8 +17,8 @@ package pull
 import (
 	"testing"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
 )
 
 func TestPullIdentity(t *testing.T) {

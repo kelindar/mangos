@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	. "go.nanomsg.org/mangos/v3/internal/test"
-	"go.nanomsg.org/mangos/v3/protocol/sub"
-	_ "go.nanomsg.org/mangos/v3/transport/inproc"
+	"github.com/kelindar/mangos/v3"
+	. "github.com/kelindar/mangos/v3/internal/test"
+	"github.com/kelindar/mangos/v3/protocol/sub"
+	_ "github.com/kelindar/mangos/v3/transport/inproc"
 )
 
 func TestPubIdentity(t *testing.T) {

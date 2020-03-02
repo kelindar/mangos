@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol"
-	"go.nanomsg.org/mangos/v3/transport"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3/transport"
 )
 
 // This file implements a mock transport, useful for testing.

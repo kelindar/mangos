@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/xrep"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/xrep"
 
 	// register transports
-	_ "go.nanomsg.org/mangos/v3/transport/all"
+	_ "github.com/kelindar/mangos/v3/transport/all"
 )
 
 // Our protocol is simple.  Request packet is empty.  The reply

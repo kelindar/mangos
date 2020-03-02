@@ -18,9 +18,9 @@
 package protocol
 
 import (
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/errors"
-	"go.nanomsg.org/mangos/v3/internal/core"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/errors"
+	"github.com/kelindar/mangos/v3/internal/core"
 )
 
 // Protocol numbers

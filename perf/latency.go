@@ -19,9 +19,9 @@ import (
 	"log"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/pair"
-	"go.nanomsg.org/mangos/v3/transport/all"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/pair"
+	"github.com/kelindar/mangos/v3/transport/all"
 )
 
 // LatencyServer is the server side -- very much equivalent to local_lat in

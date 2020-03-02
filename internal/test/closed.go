@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol"
 )
 
 // VerifyClosedSend verifies that Send on the socket created returns protocol.ErrClosed if it is closed.

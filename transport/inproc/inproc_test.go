@@ -17,7 +17,7 @@ package inproc
 import (
 	"testing"
 
-	. "go.nanomsg.org/mangos/v3/internal/test"
+	. "github.com/kelindar/mangos/v3/internal/test"
 )
 
 var tran = Transport

@@ -17,8 +17,8 @@
 package push
 
 import (
-	"go.nanomsg.org/mangos/v3/protocol"
-	"go.nanomsg.org/mangos/v3/protocol/xpush"
+	"github.com/kelindar/mangos/v3/protocol"
+	"github.com/kelindar/mangos/v3/protocol/xpush"
 )
 
 // Protocol identity information.

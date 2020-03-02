@@ -33,19 +33,19 @@ import (
 
 	"github.com/gdamore/optopia"
 
-	"go.nanomsg.org/mangos/v3"
-	"go.nanomsg.org/mangos/v3/protocol/bus"
-	"go.nanomsg.org/mangos/v3/protocol/pair"
-	"go.nanomsg.org/mangos/v3/protocol/pub"
-	"go.nanomsg.org/mangos/v3/protocol/pull"
-	"go.nanomsg.org/mangos/v3/protocol/push"
-	"go.nanomsg.org/mangos/v3/protocol/rep"
-	"go.nanomsg.org/mangos/v3/protocol/req"
-	"go.nanomsg.org/mangos/v3/protocol/respondent"
-	"go.nanomsg.org/mangos/v3/protocol/star"
-	"go.nanomsg.org/mangos/v3/protocol/sub"
-	"go.nanomsg.org/mangos/v3/protocol/surveyor"
-	"go.nanomsg.org/mangos/v3/transport/all"
+	"github.com/kelindar/mangos/v3"
+	"github.com/kelindar/mangos/v3/protocol/bus"
+	"github.com/kelindar/mangos/v3/protocol/pair"
+	"github.com/kelindar/mangos/v3/protocol/pub"
+	"github.com/kelindar/mangos/v3/protocol/pull"
+	"github.com/kelindar/mangos/v3/protocol/push"
+	"github.com/kelindar/mangos/v3/protocol/rep"
+	"github.com/kelindar/mangos/v3/protocol/req"
+	"github.com/kelindar/mangos/v3/protocol/respondent"
+	"github.com/kelindar/mangos/v3/protocol/star"
+	"github.com/kelindar/mangos/v3/protocol/sub"
+	"github.com/kelindar/mangos/v3/protocol/surveyor"
+	"github.com/kelindar/mangos/v3/transport/all"
 )
 
 // Duration is our internal duration, which parses bare numbers as seconds.

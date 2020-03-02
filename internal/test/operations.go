@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
+	"github.com/kelindar/mangos/v3"
 )
 
 // CannotSend verifies that the socket cannot send.
