@@ -41,11 +41,8 @@ func TestTlsTcpRecvMax(t *testing.T) {
 
 func TestTlsTcpOptions(t *testing.T) {
 	test.TranVerifyInvalidOption(t, tran)
-	test.TranVerifyBoolOption(t, tran, mangos.OptionKeepAlive)
 	test.TranVerifyIntOption(t, tran, mangos.OptionMaxRecvSize)
-	test.TranVerifyDurationOption(t, tran, mangos.OptionKeepAliveTime)
 	test.TranVerifyNoDelayOption(t, tran)
-	test.TranVerifyKeepAliveOption(t, tran)
 	test.TranVerifyTLSConfigOption(t, tran)
 }
 

@@ -19,7 +19,6 @@ import (
 	"testing"
 	"time"
 
-	"go.nanomsg.org/mangos/v3"
 	. "go.nanomsg.org/mangos/v3/internal/test"
 )
 
@@ -28,14 +27,6 @@ var tran = Transport
 func TestTcpRecvMax(t *testing.T) {
 	TranVerifyMaxRecvSize(t, tran, nil, nil)
 }
-
-func TestTcpOptions(t *testing.T) {
-	TranVerifyInvalidOption(t, tran)
-	TranVerifyIntOption(t, tran, mangos.OptionMaxRecvSize)
-	TranVerifyNoDelayOption(t, tran)
-	TranVerifyKeepAliveOption(t, tran)
-}
-
 func TestTcpScheme(t *testing.T) {
 	TranVerifyScheme(t, tran)
 }

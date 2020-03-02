@@ -616,7 +616,7 @@ func TranVerifyMessageSizes(t *testing.T, tran transport.Transport, dOpts, lOpts
 	MustSucceed(t, sock2.DialOptions(addr, dOpts))
 
 	for i := 0; i < 20; i++ {
-		sz := 1 << i
+		sz := 1 << uint(i)
 		m := mangos.NewMessage(sz)
 		for j := 0; j < sz; j++ {
 			m.Body = append(m.Body, byte(i))
@@ -631,7 +631,7 @@ func TranVerifyMessageSizes(t *testing.T, tran transport.Transport, dOpts, lOpts
 	}
 	// And back down:
 	for i := 20; i >= 0; i-- {
-		sz := 1 << i
+		sz := 1 << uint(i)
 		m := mangos.NewMessage(sz)
 		for j := 0; j < sz; j++ {
 			m.Body = append(m.Body, byte(i))

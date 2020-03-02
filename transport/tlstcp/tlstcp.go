@@ -238,26 +238,10 @@ func (l *listener) SetOption(n string, v interface{}) error {
 			return nil
 		}
 		return mangos.ErrBadValue
-	case mangos.OptionKeepAliveTime:
-		if b, ok := v.(time.Duration); ok {
-			l.lc.KeepAlive = b
-			return nil
-		}
-		return mangos.ErrBadValue
 
 		// Legacy stuff follows
 	case mangos.OptionNoDelay:
 		if _, ok := v.(bool); ok {
-			return nil
-		}
-		return mangos.ErrBadValue
-	case mangos.OptionKeepAlive:
-		if b, ok := v.(bool); ok {
-			if b {
-				l.lc.KeepAlive = 0
-			} else {
-				l.lc.KeepAlive = -1
-			}
 			return nil
 		}
 		return mangos.ErrBadValue
@@ -274,15 +258,8 @@ func (l *listener) GetOption(n string) (interface{}, error) {
 		return l.maxRecvSize, nil
 	case mangos.OptionTLSConfig:
 		return l.config, nil
-	case mangos.OptionKeepAliveTime:
-		return l.lc.KeepAlive, nil
 	case mangos.OptionNoDelay:
 		return true, nil
-	case mangos.OptionKeepAlive:
-		if l.lc.KeepAlive >= 0 {
-			return true, nil
-		}
-		return false, nil
 	}
 	return nil, mangos.ErrBadOption
 }
